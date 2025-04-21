@@ -109,8 +109,7 @@ async function displayalbum() {
 
 async function main() {
     
-    await getsongs(`songs/Hindi`)
-    // console.log(songs);
+    await getsongs(`songs/Hindi`) 
     playmusic(songs[0], true)
 
 
